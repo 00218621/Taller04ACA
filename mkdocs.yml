@@ -1,0 +1,18 @@
+site_name: Documentación de Fútbol
+site_url: https://github.com/00218621/Taller04ACA.git
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.emoji
+
+nav:
+  - Inicio: index.md
+  - Historia: futbol/historia.md
+  - Reglas: futbol/reglas.md
+  - Posiciones: futbol/posiciones.md
